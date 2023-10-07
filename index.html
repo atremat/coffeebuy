@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>CoffeeBuy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- HEADER -->
 
-    <header class="header">
+    <header class="header container">
       <nav class="header-menu">
         <a href="" class="header-logo"></a>
 
@@ -44,7 +58,11 @@
       <!--! HERO -->
 
       <section class="hero">
-        <img class="hero-coffee-img" alt="Three packs of coffee" />
+        <img
+          class="hero-coffee-img"
+          src="./images/hero-coffee-img.png"
+          alt="Three packs of coffee"
+        />
 
         <p class="hero-text-new">What’s new?</p>
 
@@ -62,57 +80,85 @@
       <!--! INTERESTING -->
 
       <section class="interesting">
-        <h2 class="interesting-title"></h2>
+        <h2 class="interesting-title">What’s interesting about this coffee?</h2>
 
-        <p class="interesting-text"></p>
+        <p class="interesting-text">
+          Try one of our signature selections and see what everyone’s talking
+          about or select ‘Catalogue’ at the top of the page to view all the
+          possibilities. Try one of our signature selections and see what
+          everyone’s talking about or select ‘Catalogue’ at the top of the page
+          to view all the possibilities.
+        </p>
 
-        <a href="" class="interesting-more-link"></a>
+        <a href="" class="interesting-more-link">Read more</a>
 
-        <img src="" alt="" class="interesting-coffee-img" />
+        <img
+          src="./images/interesting-coffee-img.png"
+          alt="A pack of coffee."
+          class="interesting-coffee-img"
+        />
       </section>
 
       <!--! SALES -->
 
       <section class="sales">
-        <h3 class="sales-title"></h3>
+        <h3 class="sales-title">Check our sales for popular products</h3>
 
-        <a href="" class="sales-all-link"></a>
+        <a href="" class="sales-all-link">All sales</a>
 
         <ul class="sales-list">
           <li class="sales-item">
-            <img src="" alt="" class="sales-item-img" />
+            <img
+              src="./images/sales-coffee-1-img.png"
+              alt="Blue-yellow pack"
+              class="sales-item-img"
+            />
 
-            <p class="sales-item-name"></p>
+            <p class="sales-item-name">Coffee Retail Packs</p>
 
-            <p class="sales-item-weight"></p>
+            <p class="sales-item-weight">500 g</p>
 
-            <p class="sales-promotional-price"></p>
+            <p class="sales-promotional-price">$ 14.99</p>
 
-            <p class="sales-price"></p>
+            <p class="sales-price">$ 10.49</p>
+
+            <button class="sales-btn-buy">Add to cart</button>
           </li>
 
           <li class="sales-item">
-            <img src="" alt="" class="sales-item-img" />
+            <img
+              src="./images/sales-coffee-2-img.png"
+              alt="Arabica brazil blend"
+              class="sales-item-img"
+            />
 
-            <p class="sales-item-name"></p>
+            <p class="sales-item-name">Brazil Blend Arabica</p>
 
-            <p class="sales-item-weight"></p>
+            <p class="sales-item-weight">500 g</p>
 
-            <p class="sales-promotional-price"></p>
+            <p class="sales-promotional-price">$ 13.99</p>
 
-            <p class="sales-price"></p>
+            <p class="sales-price">$ 11.89</p>
+
+            <button class="sales-btn-buy">Add to cart</button>
           </li>
 
           <li class="sales-item">
-            <img src="" alt="" class="sales-item-img" />
+            <img
+              src="./images/sales-coffee-3-img.png"
+              alt="Cartoon style pack"
+              class="sales-item-img"
+            />
 
-            <p class="sales-item-name"></p>
+            <p class="sales-item-name">Unicorn Blood Dark</p>
 
-            <p class="sales-item-weight"></p>
+            <p class="sales-item-weight">500 g</p>
 
-            <p class="sales-promotional-price"></p>
+            <p class="sales-promotional-price">$ 16.50</p>
 
-            <p class="sales-price"></p>
+            <p class="sales-price">$ 12.38</p>
+
+            <button class="sales-btn-buy">Add to cart</button>
           </li>
         </ul>
       </section>
@@ -144,41 +190,41 @@
 
       <ul class="footer-menu-buy">
         <li class="footer-buy-item">
-          <p class="footer-buy-text">Catalogue</p>
+          <a class="footer-buy-link">Catalogue</a>
         </li>
 
         <li class="footer-buy-item">
-          <p class="footer-buy-text">Gift cards</p>
+          <a class="footer-buy-link">Gift cards</a>
         </li>
 
         <li class="footer-buy-item">
-          <p class="footer-buy-text">Delivery</p>
+          <a class="footer-buy-link">Delivery</a>
         </li>
       </ul>
 
       <ul class="footer-menu-about">
         <li class="footer-about-item">
-          <p class="footer-about-text"></p>
+          <a class="footer-about-link">About company</a>
         </li>
 
         <li class="footer-about-item">
-          <p class="footer-about-text"></p>
+          <a class="footer-about-link">Job opportunities</a>
         </li>
 
         <li class="footer-about-item">
-          <p class="footer-about-text"></p>
+          <a class="footer-about-link">Privacy Policy</a>
         </li>
 
         <li class="footer-about-item">
-          <p class="footer-about-text"></p>
+          <a class="footer-about-link">Terms of Use</a>
         </li>
 
         <li class="footer-about-item">
-          <p class="footer-about-text"></p>
+          <a class="footer-about-link">Contact Us</a>
         </li>
       </ul>
 
-      <p class="footer-follow"></p>
+      <p class="footer-follow-text">Follow us</p>
       <ul class="footer-social">
         <li class="footer-social-item">
           <a href="" class="footer-social-link">
@@ -199,7 +245,9 @@
         </li>
       </ul>
 
-      <p class="footer-copyright"></p>
+      <p class="footer-copyright">
+        &copy; 2023 CoffeeBuy. All rights reserved.
+      </p>
     </footer>
   </body>
 </html>
