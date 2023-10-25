@@ -22,34 +22,50 @@
   <body>
     <!-- HEADER -->
 
-    <header class="header container">
-      <nav class="header-menu">
-        <a href="" class="header-logo"></a>
+    <header class="header">
+      <div class="header-container container">
+        <nav class="header-menu">
+          <a href="" class="header-logo">
+            <svg class="header-logo-icon" width="128" height="22">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
 
-        <ul class="header-menu-list">
-          <li class="header-menu-item">
-            <a class="header-menu-link">Catalogue</a>
-          </li>
-
-          <li class="header-menu-item">
-            <a class="header-menu-link">Delivery</a>
-          </li>
-
-          <li class="header-menu-item">
-            <a class="header-menu-link">Gift cards</a>
-          </li>
-
-          <li class="header-menu-item">
-            <a class="header-menu-link">About us</a>
-          </li>
-        </ul>
-
-        <button class="header-btn-signin">Sign in</button>
-
-        <a href="" class="header-search"></a>
-
-        <a href="" class="header-cart"></a>
-      </nav>
+          <div class="header-menu-wrapper">
+            <ul class="header-menu-list">
+              <li class="header-menu-item">
+                <a class="header-menu-link">Catalogue</a>
+              </li>
+  
+              <li class="header-menu-item">
+                <a class="header-menu-link">Delivery</a>
+              </li>
+  
+              <li class="header-menu-item">
+                <a class="header-menu-link">Gift cards</a>
+              </li>
+  
+              <li class="header-menu-item">
+                <a class="header-menu-link">About us</a>
+              </li>
+            </ul>
+  
+            <button class="header-btn-signin">Sign in</button>
+  
+            <a href="" class="header-search">
+              <svg class="header-search-icon" width="30" height="30">
+                <use href="./images/icons.svg#icon-search"></use>
+              </svg>
+            </a>
+  
+            <a href="" class="header-cart">
+              <svg class="header-cart-icon" width="30" height="30">
+                <use href="./images/icons.svg#icon-cart"></use>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- MAIN -->
@@ -58,196 +74,208 @@
       <!--! HERO -->
 
       <section class="hero">
-        <img
-          class="hero-coffee-img"
-          src="./images/hero-coffee-img.png"
-          alt="Three packs of coffee"
-        />
+        <div class="hero-container container">
+          <img
+            class="hero-coffee-img"
+            src="./images/hero-coffee-img.png"
+            alt="Three packs of coffee"
+          />
 
-        <p class="hero-text-new">What’s new?</p>
+          <p class="hero-text-new">What’s new?</p>
 
-        <h1 class="hero-title">Meet our new coffee!</h1>
+          <h1 class="hero-title">Meet our new coffee!</h1>
 
-        <p class="hero-text">
-          Try one of our signature selections and see what everyone’s talking
-          about or select ‘Catalogue’ at the top of the page to view all the
-          possibilities.
-        </p>
+          <p class="hero-text">
+            Try one of our signature selections and see what everyone’s talking
+            about or select ‘Catalogue’ at the top of the page to view all the
+            possibilities.
+          </p>
 
-        <a href="" class="hero-more-link">Learn more</a>
+          <a href="" class="hero-more-link">Learn more</a>
+        </div>
       </section>
 
       <!--! INTERESTING -->
 
       <section class="interesting">
-        <h2 class="interesting-title">What’s interesting about this coffee?</h2>
+        <div class="interesting-container container">
+          <h2 class="interesting-title">
+            What’s interesting about this coffee?
+          </h2>
 
-        <p class="interesting-text">
-          Try one of our signature selections and see what everyone’s talking
-          about or select ‘Catalogue’ at the top of the page to view all the
-          possibilities. Try one of our signature selections and see what
-          everyone’s talking about or select ‘Catalogue’ at the top of the page
-          to view all the possibilities.
-        </p>
+          <p class="interesting-text">
+            Try one of our signature selections and see what everyone’s talking
+            about or select ‘Catalogue’ at the top of the page to view all the
+            possibilities. Try one of our signature selections and see what
+            everyone’s talking about or select ‘Catalogue’ at the top of the
+            page to view all the possibilities.
+          </p>
 
-        <a href="" class="interesting-more-link">Read more</a>
+          <a href="" class="interesting-more-link">Read more</a>
 
-        <img
-          src="./images/interesting-coffee-img.png"
-          alt="A pack of coffee."
-          class="interesting-coffee-img"
-        />
+          <img
+            src="./images/interesting-coffee-img.png"
+            alt="A pack of coffee."
+            class="interesting-coffee-img"
+          />
+        </div>
       </section>
 
       <!--! SALES -->
 
       <section class="sales">
-        <h3 class="sales-title">Check our sales for popular products</h3>
-
-        <a href="" class="sales-all-link">All sales</a>
-
-        <ul class="sales-list">
-          <li class="sales-item">
-            <img
-              src="./images/sales-coffee-1-img.png"
-              alt="Blue-yellow pack"
-              class="sales-item-img"
-            />
-
-            <p class="sales-item-name">Coffee Retail Packs</p>
-
-            <p class="sales-item-weight">500 g</p>
-
-            <p class="sales-promotional-price">$ 14.99</p>
-
-            <p class="sales-price">$ 10.49</p>
-
-            <button class="sales-btn-buy">Add to cart</button>
-          </li>
-
-          <li class="sales-item">
-            <img
-              src="./images/sales-coffee-2-img.png"
-              alt="Arabica brazil blend"
-              class="sales-item-img"
-            />
-
-            <p class="sales-item-name">Brazil Blend Arabica</p>
-
-            <p class="sales-item-weight">500 g</p>
-
-            <p class="sales-promotional-price">$ 13.99</p>
-
-            <p class="sales-price">$ 11.89</p>
-
-            <button class="sales-btn-buy">Add to cart</button>
-          </li>
-
-          <li class="sales-item">
-            <img
-              src="./images/sales-coffee-3-img.png"
-              alt="Cartoon style pack"
-              class="sales-item-img"
-            />
-
-            <p class="sales-item-name">Unicorn Blood Dark</p>
-
-            <p class="sales-item-weight">500 g</p>
-
-            <p class="sales-promotional-price">$ 16.50</p>
-
-            <p class="sales-price">$ 12.38</p>
-
-            <button class="sales-btn-buy">Add to cart</button>
-          </li>
-        </ul>
+       <div class="sales-container container">
+          <h3 class="sales-title">Check our sales for popular products</h3>
+  
+          <a href="" class="sales-all-link">All sales</a>
+  
+          <ul class="sales-list">
+            <li class="sales-item">
+              <img
+                src="./images/sales-coffee-1-img.png"
+                alt="Blue-yellow pack"
+                class="sales-item-img"
+              />
+  
+              <p class="sales-item-name">Coffee Retail Packs</p>
+  
+              <p class="sales-item-weight">500 g</p>
+  
+              <p class="sales-promotional-price">$ 14.99</p>
+  
+              <p class="sales-price">$ 10.49</p>
+  
+              <button class="sales-btn-buy">Add to cart</button>
+            </li>
+  
+            <li class="sales-item">
+              <img
+                src="./images/sales-coffee-2-img.png"
+                alt="Arabica brazil blend"
+                class="sales-item-img"
+              />
+  
+              <p class="sales-item-name">Brazil Blend Arabica</p>
+  
+              <p class="sales-item-weight">500 g</p>
+  
+              <p class="sales-promotional-price">$ 13.99</p>
+  
+              <p class="sales-price">$ 11.89</p>
+  
+              <button class="sales-btn-buy">Add to cart</button>
+            </li>
+  
+            <li class="sales-item">
+              <img
+                src="./images/sales-coffee-3-img.png"
+                alt="Cartoon style pack"
+                class="sales-item-img"
+              />
+  
+              <p class="sales-item-name">Unicorn Blood Dark</p>
+  
+              <p class="sales-item-weight">500 g</p>
+  
+              <p class="sales-promotional-price">$ 16.50</p>
+  
+              <p class="sales-price">$ 12.38</p>
+  
+              <button class="sales-btn-buy">Add to cart</button>
+            </li>
+          </ul>
+       </div>
       </section>
 
       <!--! SUBSCRIBE -->
 
       <section class="subscribe">
-        <p class="subscribe-email-text">
-          Subscribe to get emails about our new products and sales
-        </p>
-
-        <form action="" class="subscribe-form"></form>
-
-        <p class="subscribe-text">
-          We have a passion for coffee and people. Make sure you always have
-          your favorite cup of coffee around to start your day off right.
-        </p>
-
-        <a class="subscribe-logo"><svg class="subscribe-logo-img"></svg></a>
-      </section>
+       <div class="subscribe-container container">
+          <p class="subscribe-email-text">
+            Subscribe to get emails about our new products and sales
+          </p>
+  
+          <form action="" class="subscribe-form"></form>
+  
+          <p class="subscribe-text">
+            We have a passion for coffee and people. Make sure you always have
+            your favorite cup of coffee around to start your day off right.
+          </p>
+  
+          <a class="subscribe-logo"><svg class="subscribe-logo-img"></svg></a>
+        </section>
+       </div>
     </main>
 
     <!-- FOOTER -->
 
     <footer class="footer">
-      <a href="" class="footer-logo"></a>
-
-      <p class="footer-about-text">Coffee shop</p>
-
-      <ul class="footer-menu-buy">
-        <li class="footer-buy-item">
-          <a class="footer-buy-link">Catalogue</a>
-        </li>
-
-        <li class="footer-buy-item">
-          <a class="footer-buy-link">Gift cards</a>
-        </li>
-
-        <li class="footer-buy-item">
-          <a class="footer-buy-link">Delivery</a>
-        </li>
-      </ul>
-
-      <ul class="footer-menu-about">
-        <li class="footer-about-item">
-          <a class="footer-about-link">About company</a>
-        </li>
-
-        <li class="footer-about-item">
-          <a class="footer-about-link">Job opportunities</a>
-        </li>
-
-        <li class="footer-about-item">
-          <a class="footer-about-link">Privacy Policy</a>
-        </li>
-
-        <li class="footer-about-item">
-          <a class="footer-about-link">Terms of Use</a>
-        </li>
-
-        <li class="footer-about-item">
-          <a class="footer-about-link">Contact Us</a>
-        </li>
-      </ul>
-
-      <p class="footer-follow-text">Follow us</p>
-      <ul class="footer-social">
-        <li class="footer-social-item">
-          <a href="" class="footer-social-link">
-            <svg class="footer-social-icon"></svg>
-          </a>
-        </li>
-
-        <li class="footer-social-item">
-          <a href="" class="footer-social-link">
-            <svg class="footer-social-icon"></svg>
-          </a>
-        </li>
-
-        <li class="footer-social-item">
-          <a href="" class="footer-social-link">
-            <svg class="footer-social-icon"></svg>
-          </a>
-        </li>
-      </ul>
-
-      <p class="footer-copyright">
-        &copy; 2023 CoffeeBuy. All rights reserved.
-      </p>
+      <div class="footer-container container">
+        <a href="" class="footer-logo"></a>
+  
+        <p class="footer-about-text">Coffee shop</p>
+  
+        <ul class="footer-menu-buy">
+          <li class="footer-buy-item">
+            <a class="footer-buy-link">Catalogue</a>
+          </li>
+  
+          <li class="footer-buy-item">
+            <a class="footer-buy-link">Gift cards</a>
+          </li>
+  
+          <li class="footer-buy-item">
+            <a class="footer-buy-link">Delivery</a>
+          </li>
+        </ul>
+  
+        <ul class="footer-menu-about">
+          <li class="footer-about-item">
+            <a class="footer-about-link">About company</a>
+          </li>
+  
+          <li class="footer-about-item">
+            <a class="footer-about-link">Job opportunities</a>
+          </li>
+  
+          <li class="footer-about-item">
+            <a class="footer-about-link">Privacy Policy</a>
+          </li>
+  
+          <li class="footer-about-item">
+            <a class="footer-about-link">Terms of Use</a>
+          </li>
+  
+          <li class="footer-about-item">
+            <a class="footer-about-link">Contact Us</a>
+          </li>
+        </ul>
+  
+        <p class="footer-follow-text">Follow us</p>
+        <ul class="footer-social">
+          <li class="footer-social-item">
+            <a href="" class="footer-social-link">
+              <svg class="footer-social-icon"></svg>
+            </a>
+          </li>
+  
+          <li class="footer-social-item">
+            <a href="" class="footer-social-link">
+              <svg class="footer-social-icon"></svg>
+            </a>
+          </li>
+  
+          <li class="footer-social-item">
+            <a href="" class="footer-social-link">
+              <svg class="footer-social-icon"></svg>
+            </a>
+          </li>
+        </ul>
+  
+        <p class="footer-copyright">
+          &copy; 2023 CoffeeBuy. All rights reserved.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

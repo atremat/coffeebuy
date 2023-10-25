@@ -77,11 +77,25 @@ address {
 
 /* HEADER */
 .header {
+  margin-top: 30px;
 }
 .header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-logo {
 }
+
+.header-logo-icon {
+}
+
+.header-menu-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
 .header-menu-list {
   display: flex;
   gap: 40px;
@@ -101,7 +115,13 @@ address {
   font-weight: 500;
   line-height: normal;
   border-radius: 25px;
+  border: none;
   background: #3c6bff;
+
+  padding: 13px 48px;
+
+  min-width: 174px;
+  height: 46px;
 }
 .header-search {
 }
@@ -230,6 +250,7 @@ address {
 
 /* FOOTER */
 .footer {
+  background-color: #282828;
 }
 .footer-logo {
 }
