@@ -104,20 +104,22 @@
 
       <section class="interesting">
         <div class="interesting-container container">
-          <h2 class="interesting-title">
-            What’s interesting about this coffee?
-          </h2>
-
-          <p class="interesting-text">
-            Try one of our signature selections and see what everyone’s talking
-            about or select ‘Catalogue’ at the top of the page to view all the
-            possibilities. Try one of our signature selections and see what
-            everyone’s talking about or select ‘Catalogue’ at the top of the
-            page to view all the possibilities.
-          </p>
-
-          <a href="" class="interesting-more-link">Read more</a>
-
+          <div class="interesting-wrapper">
+            <h2 class="interesting-title">
+              What’s interesting about this coffee?
+            </h2>
+  
+            <p class="interesting-text">
+              Try one of our signature selections and see what everyone’s talking
+              about or select ‘Catalogue’ at the top of the page to view all the
+              possibilities. Try one of our signature selections and see what
+              everyone’s talking about or select ‘Catalogue’ at the top of the
+              page to view all the possibilities.
+            </p>
+  
+            <a href="" class="interesting-more-link">Read more</a>
+  
+          </div>
           <img
             src="./images/interesting-coffee-img.png"
             alt="A pack of coffee."
@@ -129,10 +131,13 @@
       <!--! SALES -->
 
       <section class="sales">
-       <div class="sales-container container">
-          <h3 class="sales-title">Check our sales for popular products</h3>
-  
-          <a href="" class="sales-all-link">All sales</a>
+        <div class="sales-container container">
+
+          <div class="sales-wrapper">
+            <h3 class="sales-title">Check our sales for popular products</h3>
+    
+            <a href="" class="sales-all-link">All sales</a>
+          </div>
   
           <ul class="sales-list">
             <li class="sales-item">
@@ -146,9 +151,19 @@
   
               <p class="sales-item-weight">500 g</p>
   
-              <p class="sales-promotional-price">$ 14.99</p>
-  
-              <p class="sales-price">$ 10.49</p>
+            <div class="sales-price-wrapper">
+                <p class="sales-promotional-price">$ 14.99</p>
+    
+                <p class="sales-price">$ 10.49</p>
+            </div>
+
+            <form class="sales-form">
+              <button type="button" class="sales-plus">+</button>
+
+              <input class="sales-input" id="sales-quantity" type="number" name="sales-quantity" value="1" />
+
+              <button type="button" class="sales-minus">-</button>
+            </form>
   
               <button class="sales-btn-buy">Add to cart</button>
             </li>
@@ -164,9 +179,19 @@
   
               <p class="sales-item-weight">500 g</p>
   
-              <p class="sales-promotional-price">$ 13.99</p>
+              <div class="sales-price-wrapper">
+                <p class="sales-promotional-price">$ 13.99</p>
+    
+                <p class="sales-price">$ 11.89</p>
+              </div>
   
-              <p class="sales-price">$ 11.89</p>
+            <form class="sales-form">
+              <button type="button" class="sales-plus">+</button>
+
+              <input class="sales-input" id="sales-quantity" type="number" name="sales-quantity" value="1" />
+
+              <button type="button" class="sales-minus">-</button>
+            </form>
   
               <button class="sales-btn-buy">Add to cart</button>
             </li>
@@ -182,9 +207,19 @@
   
               <p class="sales-item-weight">500 g</p>
   
-              <p class="sales-promotional-price">$ 16.50</p>
+              <div class="sales-price-wrapper">
+                <p class="sales-promotional-price">$ 16.50</p>
+    
+                <p class="sales-price">$ 12.38</p>
+              </div>
   
-              <p class="sales-price">$ 12.38</p>
+            <form class="sales-form">
+              <button type="button" class="sales-plus">+</button>
+
+              <input class="sales-input" id="sales-quantity" type="number" name="sales-quantity" value="1" />
+
+              <button type="button" class="sales-minus">-</button>
+            </form>
   
               <button class="sales-btn-buy">Add to cart</button>
             </li>
