@@ -366,6 +366,7 @@ input[type="number"] {
 
 /* SUBSCRIBE */
 .subscribe {
+  padding-bottom: 65px;
 }
 
 .subscribe-container {
@@ -429,9 +430,13 @@ input[type="number"] {
 /* FOOTER */
 .footer {
   background-color: #282828;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
+
 .footer-logo {
 }
+
 .footer-about-text {
   color: #d9d9d9;
   font-size: 16px;
