@@ -7,6 +7,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 16px;
   background-color: #fdfdfd;
 }
 
@@ -102,6 +103,7 @@ input[type="number"] {
 }
 
 .header-logo-icon {
+  fill: #282828;
 }
 
 .header-menu-wrapper {
@@ -365,14 +367,50 @@ input[type="number"] {
 /* SUBSCRIBE */
 .subscribe {
 }
+
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 378px;
+}
+
 .subscribe-email-text {
   color: #282828;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 .subscribe-form {
+  display: flex;
 }
+
+.subscribe-input {
+  line-height: 1.5;
+  width: 253px;
+  height: 46px;
+  margin-right: -2px;
+}
+
+.subscribe-input::placeholder {
+  color: #777;
+}
+
+.subscribe-btn {
+  border-radius: 0px 25px 25px 0px;
+  background-color: #282828;
+  width: 125px;
+  height: 46px;
+  color: #f8f8f8;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .subscribe-text {
   color: #000;
   font-family: Houschka-700;
@@ -381,8 +419,11 @@ input[type="number"] {
   line-height: 1.5;
 }
 .subscribe-logo {
+  align-self: flex-end;
 }
+
 .subscribe-logo-img {
+  fill: #301607;
 }
 
 /* FOOTER */
