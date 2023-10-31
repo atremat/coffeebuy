@@ -22,5 +22,11 @@
     <symbol id="icon-gt" viewBox="0 0 22 32">
       <path d="M2.477 2.582c-0.941 0.806-1.706 1.472-1.696 1.485l6.925 5.914c6.264 5.277 8.535 7.225 10.802 9.176l-3.826-3.218c0.064 0.061-0.282 0.362-6.909 6.016-3.918 3.312-6.19 5.266-8.455 7.23l1.473-1.249c-0.013 0.048 3.398 2.938 3.437 2.915 0.045-0.029 17.389-14.826 17.398-14.848 0.010-0.013-17.315-14.806-17.398-14.858-0.019-0.013-0.806 0.634-1.75 1.437z"></path>
     </symbol>
+    <symbol id="icon-x-right" viewBox="0 0 27 32">
+      <path fill="none" stroke="#282828" style="stroke: var(--color1, #282828)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8462" d="M10.892 7.385v-1.538c0-1.224 0.486-2.398 1.352-3.264s2.039-1.352 3.264-1.352c1.224 0 2.398 0.486 3.264 1.352s1.352 2.039 1.352 3.264v1.538"></path>
+    </symbol>
+    <symbol id="icon-x-left" viewBox="0 0 38 32">
+      <path fill="none" stroke="#282828" style="stroke: var(--color1, #282828)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8462" d="M10.892 7.385v-1.538c0-1.224 0.486-2.398 1.352-3.264s2.039-1.352 3.264-1.352c1.224 0 2.398 0.486 3.264 1.352s1.352 2.039 1.352 3.264v1.538"></path>
+    </symbol>
   </defs>
 </svg>
