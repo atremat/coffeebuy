@@ -150,6 +150,7 @@ input[type="number"] {
 }
 
 .hero-container {
+  position: relative;
   display: flex;
 }
 
@@ -167,6 +168,28 @@ input[type="number"] {
   padding-left: 28px;
 
   justify-content: center;
+
+  position: relative;
+}
+
+.hero-bg:first-child {
+  position: absolute;
+  top: 87px;
+  left: -11px;
+  transform: rotate(90deg);
+}
+
+.hero-bg:nth-child(2) {
+  position: absolute;
+  top: 98px;
+  right: -12px;
+}
+
+.hero-bg:nth-child(3) {
+  position: absolute;
+  top: 320px;
+  left: 160px;
+  transform: rotate(90deg);
 }
 
 .hero-text-new {
@@ -227,6 +250,28 @@ input[type="number"] {
   flex-direction: column;
   padding-right: 132px;
   justify-content: center;
+
+  position: relative;
+}
+
+.interesting-bg:nth-child(1) {
+  position: absolute;
+  top: 71px;
+  left: -63px;
+  transform: rotate(90deg);
+}
+
+.interesting-bg:nth-child(2) {
+  position: absolute;
+  top: 71px;
+  right: 81px;
+}
+
+.interesting-bg:nth-child(3) {
+  position: absolute;
+  bottom: 93px;
+  right: 132px;
+  transform: rotate(90deg);
 }
 
 .interesting-title {
@@ -259,14 +304,29 @@ input[type="number"] {
   padding-bottom: 87px;
 }
 
+.sales-container {
+}
+
 .sales-wrapper {
   display: flex;
 
   justify-content: space-between;
+  position: relative;
+}
+
+.sales-bg:nth-child(1) {
+  position: absolute;
+  top: -40px;
+  left: 573px;
+  transform: rotate(67.623deg);
 }
 
 .sales-title {
   margin-bottom: 41px;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
 }
 .sales-all-link {
   color: #ff3939;
@@ -281,6 +341,24 @@ input[type="number"] {
 
 .sales-gt-icon {
   fill: #ff3939;
+}
+
+.sales-list-wrap {
+  position: relative;
+}
+
+.sales-list-bg:nth-child(1) {
+  position: absolute;
+  bottom: -57px;
+  left: 308px;
+  transform: rotate(169.284deg);
+}
+
+.sales-list-bg:nth-child(2) {
+  position: absolute;
+  bottom: -57px;
+  right: -63px;
+  transform: rotate(-120deg);
 }
 
 .sales-list {
