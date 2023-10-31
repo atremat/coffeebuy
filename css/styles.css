@@ -262,6 +262,7 @@ input[type="number"] {
 }
 
 .sales-title {
+  margin-bottom: 41px;
 }
 .sales-all-link {
   color: #ff3939;
@@ -269,6 +270,15 @@ input[type="number"] {
   font-weight: 500;
   line-height: normal;
 }
+
+.sales-all-link > span {
+  margin-right: 10px;
+}
+
+.sales-gt-icon {
+  fill: #ff3939;
+}
+
 .sales-list {
   display: flex;
   gap: 30px;
@@ -488,6 +498,7 @@ input[type="number"] {
 }
 
 .footer-menu-about {
+  margin-bottom: 86px;
 }
 
 .footer-about-item {
